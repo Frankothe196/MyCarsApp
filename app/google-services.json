@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "614749388720",
+    "firebase_url": "https://mycarsapp-bcc31.firebaseio.com",
+    "project_id": "mycarsapp-bcc31",
+    "storage_bucket": "mycarsapp-bcc31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614749388720:android:6cd293684f01ef55",
+        "android_client_info": {
+          "package_name": "com.thecarapp.mycarsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614749388720-pgkri1dluookb5m3o8rr6htd5o3k2rng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWmC7D3AdJ-bcT9QEHD8E1QhHtVHeGT9k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

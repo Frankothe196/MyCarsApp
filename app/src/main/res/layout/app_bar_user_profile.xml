@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/backgroundorangenav"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="Cars main menu"/>
+
+    <TextView
+        android:background="#FFC300"
+        android:text="My Cars"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_rowWeight="1"
+        android:id="@+id/mycarsview"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_rowWeight="1"
+        android:background="#FF5733"
+        android:gravity="center"
+        android:text="Buy Spare Parts"
+        android:textSize="32dp"
+        android:id="@+id/sparepartsview"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_rowWeight="1"
+        android:background="#C70039"
+        android:text="Locate a Warehouse"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:id="@+id/warehouseview"
+        />
+    <TextView
+        android:background="#900C3F"
+        android:text="Book Car Service"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_rowWeight="1"
+        android:id="@+id/serviceview"/>
+    <TextView
+        android:background="#581845"
+        android:text="Fuel Consumption"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_rowWeight="1"
+        android:id="@+id/fuelconsumptionview"
+        />
+
+</GridLayout>

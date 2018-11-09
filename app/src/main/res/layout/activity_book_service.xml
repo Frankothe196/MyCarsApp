@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:background="#900C3F"
+    tools:context=".BookService">
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/servicename"
+        android:layout_width="match_parent"
+        android:hint="fullname"
+        android:layout_height="70sp"
+        />
+
+    <EditText
+        android:id="@+id/serviceemail"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:hint="E-mail"/>
+
+    <EditText
+        android:id="@+id/servicetel"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:hint="Telephone"/>
+
+    <EditText
+        android:id="@+id/servicemodel"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:hint="Vehicle model"/>
+
+    <EditText
+        android:id="@+id/servicereg"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:hint="Registration no"/>
+
+    <EditText
+        android:id="@+id/servicedate"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:hint="Date of service"/>
+
+
+    <EditText
+        android:id="@+id/servicetime"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:hint="Time of service"/>
+
+    <EditText
+        android:id="@+id/servicebranch"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:hint="Preferable Branch for service" />
+    <EditText
+        android:id="@+id/serviceinfo"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:hint="Additional information" />
+
+    <TextView
+        android:id="@+id/serviceupload"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/backgroundbuttonorange"
+        android:text="Book service"
+        android:gravity="center"
+        android:textSize="28dp"/>
+
+
+</LinearLayout>
+
+
+</ScrollView>

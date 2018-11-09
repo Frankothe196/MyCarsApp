@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyCars"
+    >
+
+<ListView
+    android:id="@+id/list_cars"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></ListView>
+    <TextView
+        android:id="@+id/lstcaryear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year" />
+
+    <TextView
+        android:id="@+id/lstcarmake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="make" />
+
+    <TextView
+        android:id="@+id/lstcarmodel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="model" />
+
+    <TextView
+        android:id="@+id/lstcarengine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="engine capacity" />
+
+    <TextView
+        android:id="@+id/lstcarreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration number" />
+
+</android.support.constraint.ConstraintLayout>
